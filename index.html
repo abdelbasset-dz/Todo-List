@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" 
+          href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>To do list app</h1>
+    </header>
+    <main>
+        <section class="Note-form">
+            <input type="text" 
+                   name="note" 
+                   id="strInput" 
+                   placeholder="Enter Something to do" 
+                   pattern="pattern" 
+                   size="50" 
+                   required>
+            <button id="addNote">
+                Add
+            </button>
+            <button id="deleteAll">
+                Delete All Notes
+            </button>
+        </section>
+        <section class="Notes">
+            <ul id="NoteList">
+              
+<!-- Notes will be added here dynamically -->
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
